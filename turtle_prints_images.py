@@ -30,7 +30,7 @@ def test_turtle(myturtle,r,g,b,x,y,i,j):
 		myturtle.setpos(j+1,i+1)
 		myturtle.down()
 
-def main():
+if__name__=="__main__":
 	screen = turtle.Screen()
 	img = Image.open(imloc)
 	x,y = img.size
@@ -39,6 +39,4 @@ def main():
 		for i in range (y):
 			r, g, b = img.getpixel((j, i))
 			test_turtle(ttuga1,r,g,b,x,y,i,j)
-		
-main()
-
+	
