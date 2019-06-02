@@ -2,7 +2,7 @@ import turtle
 import PIL 
 from PIL import Image
 
-imloc = "D:\\College\\Codes\\Python\\estavanodesk\\colorspectrum.png"
+imloc = "PATH\colorspectrum.png"
 	
 def create_ttle(x,y):
 	ttuga = turtle.Turtle()
