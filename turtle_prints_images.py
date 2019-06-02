@@ -30,7 +30,7 @@ def test_turtle(myturtle,r,g,b,x,y,i,j):
 		myturtle.setpos(j+1,i+1)
 		myturtle.down()
 
-if__name__=="__main__":
+if __name__=="__main__":
 	screen = turtle.Screen()
 	img = Image.open(imloc)
 	x,y = img.size
